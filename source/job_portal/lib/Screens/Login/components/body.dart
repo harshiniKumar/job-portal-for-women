@@ -7,6 +7,8 @@ import 'package:job_portal/components/rounded_input_field.dart';
 import 'package:job_portal/components/rounded_password_field.dart';
 import 'package:flutter_svg/svg.dart';
 
+import '../../Home/home_screen.dart';
+
 class Body extends StatelessWidget {
   const Body({
     Key? key,
@@ -30,16 +32,30 @@ class Body extends StatelessWidget {
               height: size.height * 0.35,
             ),
             SizedBox(height: size.height * 0.03),
-            RoundedInputField(
+            Container
+              (
+              alignment: Alignment.center,
+                child: RoundedInputField(
               hintText: "Your Email",
-              onChanged: (value) {},
+              icon:Icons.person,
+              onChanged: (value) {}
+                )
             ),
             RoundedPasswordField(
               onChanged: (value) {},
             ),
             RoundedButton(
               text: "LOGIN",
-              press: () {},
+              press: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return HomeScreen();
+                    },
+                  ),
+                );
+              }
             ),
             SizedBox(height: size.height * 0.03),
             AlreadyHaveAnAccountCheck(

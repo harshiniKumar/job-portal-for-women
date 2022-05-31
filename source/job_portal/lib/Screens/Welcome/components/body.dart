@@ -7,6 +7,8 @@ import 'package:job_portal/constants.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 
+import 'package:job_portal/Screens/Events/events_screen.dart';
+
 class Body extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -48,6 +50,21 @@ class Body extends StatelessWidget {
                   MaterialPageRoute(
                     builder: (context) {
                       return SignUpScreen();
+                    },
+                  ),
+                );
+              },
+            ),
+            RoundedButton(
+              text: "EVENTS",
+              color: kPrimaryLightColor,
+              textColor: Colors.black,
+              press: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                    builder: (context) {
+                      return EventScreen();
                     },
                   ),
                 );

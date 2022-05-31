@@ -1,3 +1,5 @@
+// ignore_for_file: unused_import
+
 import 'package:flutter/material.dart';
 import 'package:job_portal/Screens/Login/login_screen.dart';
 import 'package:job_portal/Screens/Signup/components/background.dart';
@@ -25,10 +27,21 @@ class Body extends StatelessWidget {
             SizedBox(height: size.height * 0.03),
             SvgPicture.asset(
               "assets/icons/signup.svg",
-              height: size.height * 0.35,
+              height: size.height * 0.25,
+            ),
+            RoundedInputField(
+              hintText: "Name",
+              icon:Icons.abc,
+              onChanged: (value){},
+              ),
+            RoundedInputField(
+              hintText: "Phone Number",
+              icon:Icons.phone_android,
+              onChanged: (value){},
             ),
             RoundedInputField(
               hintText: "Your Email",
+              icon:Icons.person,
               onChanged: (value) {},
             ),
             RoundedPasswordField(
@@ -52,24 +65,6 @@ class Body extends StatelessWidget {
                 );
               },
             ),
-            OrDivider(),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.center,
-              children: <Widget>[
-                SocialIcon(
-                  iconSrc: "assets/icons/facebook.svg",
-                  press: () {},
-                ),
-                SocialIcon(
-                  iconSrc: "assets/icons/twitter.svg",
-                  press: () {},
-                ),
-                SocialIcon(
-                  iconSrc: "assets/icons/google-plus.svg",
-                  press: () {},
-                ),
-              ],
-            )
           ],
         ),
       ),

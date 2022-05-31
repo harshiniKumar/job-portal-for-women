@@ -7,11 +7,12 @@ class WelcomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title:const Text('SHERO SEARCH' ),
+      appBar: AppBar(title:const Text('Shero Search' ),
         backgroundColor: kPrimaryColor,
         actions: [
           PopupMenuButton(
-          icon: Icon(Icons.more_vert),
+
+          icon: Icon(Icons.language_sharp),
           itemBuilder: (BuildContext context) => <PopupMenuEntry>[
             const PopupMenuItem(
               child: ListTile(
@@ -28,6 +29,7 @@ class WelcomeScreen extends StatelessWidget {
                 title: Text('Hindi'),
               ),
             ),
+
         ],
       )],
       ),
