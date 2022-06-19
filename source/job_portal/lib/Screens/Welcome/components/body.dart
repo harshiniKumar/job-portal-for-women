@@ -20,7 +20,7 @@ class Body extends StatelessWidget {
           children: <Widget>[
             const Text(
               "WELCOME TO SHERO SEARCH",
-              style: TextStyle(fontWeight: FontWeight.bold),
+              style: TextStyle(fontWeight: FontWeight.bold,fontFamily: 'Varela-Round'),
             ),
             SizedBox(height: size.height * 0.05),
             SvgPicture.asset("assets/icons/chat.svg",
@@ -55,21 +55,21 @@ class Body extends StatelessWidget {
                 );
               },
             ),
-            RoundedButton(
-              text: "EVENTS",
-              color: kPrimaryLightColor,
-              textColor: Colors.black,
-              press: () {
-                Navigator.push(
-                  context,
-                  MaterialPageRoute(
-                    builder: (context) {
-                      return EventScreen();
-                    },
-                  ),
-                );
-              },
-            ),
+            // RoundedButton(
+            //   text: "EVENTS",
+            //   color: kPrimaryLightColor,
+            //   textColor: Colors.black,
+            //   press: () {
+            //     Navigator.push(
+            //       context,
+            //       MaterialPageRoute(
+            //         builder: (context) {
+            //           return EventScreen();
+            //         },
+            //       ),
+            //     );
+            //   },
+            // ),
           ],
         ),
       ),

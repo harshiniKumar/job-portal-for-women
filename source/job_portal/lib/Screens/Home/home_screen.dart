@@ -5,7 +5,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Drawer Demo'),
+        title: const Text(''),
         backgroundColor: kPrimaryColor,
       ),
       drawer: Drawer(
@@ -42,3 +42,4 @@ class HomeScreen extends StatelessWidget {
     );
   }
 }
+

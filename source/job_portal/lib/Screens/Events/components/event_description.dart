@@ -1,4 +1,14 @@
 import 'package:flutter/material.dart';
+// class EventDescription extends StatefulWidget
+// {
+//   @override
+//   State<StatefulWidget> createState() {
+//     // TODO: implement createState
+//     throw UnimplementedError();
+//   }
+//
+// }
+// class EventDescriptionState extents
 class EventDescription extends StatelessWidget{
   // const EventDescription({super.key});
 
@@ -61,7 +71,7 @@ class EventDescription extends StatelessWidget{
         'Vapasi, a #TalkTechToHer initiative from Thoughtworks helps experienced women technologists who are currently on a career break, resume their tech journeys. The last 20 batches of Vapasi tailored for Developers and Quality Analysts saw more than 250+ women participate in the returnee program.',
         softWrap: true,
         textAlign: TextAlign.justify,
-   style:TextStyle(fontFamily:'Roboto-Regular',),
+   style:TextStyle(fontFamily:'Roboto',),
       ),
     );
 
@@ -106,4 +116,5 @@ class EventDescription extends StatelessWidget{
       ],
     );
   }
+
 }
