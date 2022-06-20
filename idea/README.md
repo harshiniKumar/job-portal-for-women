@@ -23,4 +23,4 @@ The Powerpoint presentation walks you through the basic idea of the solution and
 ### Demonstration Video
 
 The Demo video presents the motivation for the idea and the workflow of a user pipeline.
-- The [Demo Video](https://github.com/harshiniKumar/job-portal-for-women/blob/main/idea/Demo_Video.mp4)
+- The [Demo Video](https://github.com/harshiniKumar/job-portal-for-women/blob/main/idea/Demo%20Video.mp4)
