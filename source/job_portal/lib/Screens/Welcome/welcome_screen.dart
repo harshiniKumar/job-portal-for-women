@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:job_portal/Screens/Welcome/components/body.dart';
-import 'package:job_portal/constants.dart';
+import '../../../constants/constants.dart';
 
 class WelcomeScreen extends StatelessWidget {
   String dropdownValue = 'Option 1';

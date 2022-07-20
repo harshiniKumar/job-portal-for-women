@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:job_portal/Screens/Home/home_screen.dart';
-import 'package:job_portal/constants.dart';
+import '../../../../constants/constants.dart';
 import 'package:job_portal/Screens/Events/event_data.dart';
 import 'event_description.dart';
 class Body extends StatelessWidget {

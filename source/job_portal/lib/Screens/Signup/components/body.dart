@@ -3,8 +3,6 @@
 import 'package:flutter/material.dart';
 import 'package:job_portal/Screens/Login/login_screen.dart';
 import 'package:job_portal/Screens/Signup/components/background.dart';
-import 'package:job_portal/Screens/Signup/components/or_divider.dart';
-import 'package:job_portal/Screens/Signup/components/social_icon.dart';
 import 'package:job_portal/components/already_have_an_account_acheck.dart';
 import 'package:job_portal/components/rounded_button.dart';
 import 'package:job_portal/components/rounded_input_field.dart';
@@ -30,22 +28,9 @@ class Body extends StatelessWidget {
               height: size.height * 0.25,
             ),
             RoundedInputField(
-              hintText: "Name",
-              icon:Icons.abc,
-              onChanged: (value){},
-              ),
-            RoundedInputField(
               hintText: "Phone Number",
               icon:Icons.phone_android,
               onChanged: (value){},
-            ),
-            RoundedInputField(
-              hintText: "Your Email",
-              icon:Icons.person,
-              onChanged: (value) {},
-            ),
-            RoundedPasswordField(
-              onChanged: (value) {},
             ),
             RoundedButton(
               text: "SIGNUP",

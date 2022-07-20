@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:job_portal/constants.dart';
+import '../../constants/constants.dart';
 
 class AlreadyHaveAnAccountCheck extends StatelessWidget {
   final bool login;
@@ -16,7 +16,7 @@ class AlreadyHaveAnAccountCheck extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: <Widget>[
         Text(
-          login ? "Don’t have an Account ? " : "Already have an Account ? ",
+          login ? "Not yet registered ? " : "Already have an Account ? ",
           style: const TextStyle(color: kPrimaryColor),
         ),
         GestureDetector(

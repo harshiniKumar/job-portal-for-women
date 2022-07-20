@@ -3,7 +3,7 @@ import 'package:job_portal/Screens/Signup/signup_screen.dart';
 import 'package:job_portal/Screens/Login/login_screen.dart';
 import 'package:job_portal/Screens/Welcome/components/background.dart';
 import 'package:job_portal/components/rounded_button.dart';
-import 'package:job_portal/constants.dart';
+import '../../../../constants/constants.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 

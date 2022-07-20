@@ -1,14 +1,5 @@
 import 'package:flutter/material.dart';
-// class EventDescription extends StatefulWidget
-// {
-//   @override
-//   State<StatefulWidget> createState() {
-//     // TODO: implement createState
-//     throw UnimplementedError();
-//   }
-//
-// }
-// class EventDescriptionState extents
+import '../../../../constants/constants.dart';
 class EventDescription extends StatelessWidget{
   // const EventDescription({super.key});
 
@@ -60,7 +51,7 @@ class EventDescription extends StatelessWidget{
       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
       children: [
         _buildButtonColumn(color, Icons.call, 'CALL'),
-        _buildButtonColumn(color, Icons.near_me, 'ROUTE'),
+        _buildButtonColumn(color, Icons.location_on, 'LOCATION'),
         _buildButtonColumn(color, Icons.share, 'SHARE'),
       ],
     );
@@ -78,6 +69,7 @@ class EventDescription extends StatelessWidget{
     return  Scaffold(
         appBar: AppBar(
           title: const Text('Event Description'),
+          backgroundColor: kPrimaryLightColor,
         ),
         body: ListView(
           children: [

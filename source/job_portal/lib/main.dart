@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:job_portal/Screens/Welcome/welcome_screen.dart';
-import 'package:job_portal/constants.dart';
-
+import '../constants/constants.dart';
 void main() =>   runApp(MyApp());
 
 class MyApp extends StatelessWidget {

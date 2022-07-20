@@ -36,13 +36,10 @@ class Body extends StatelessWidget {
               (
               alignment: Alignment.center,
                 child: RoundedInputField(
-              hintText: "Your Email",
-              icon:Icons.person,
-              onChanged: (value) {}
-                )
-            ),
-            RoundedPasswordField(
-              onChanged: (value) {},
+                  hintText: "Phone Number",
+                  icon:Icons.phone_android,
+                  onChanged: (value){},
+                ),
             ),
             RoundedButton(
               text: "LOGIN",
